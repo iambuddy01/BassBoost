@@ -3,8 +3,8 @@ import os
 import logging
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from pytgcalls import PyTgCalls
-from pytgcalls.types.input_stream.input_stream import AudioPiped
+from pytgcalls import PyTgCalls, idle
+from pytgcalls.types import AudioPiped
 from pydub import AudioSegment, effects
 from config import API_ID, API_HASH, BOT_TOKEN, SESSION_STRING, OWNER_ID, BOOSTED_FILENAME, TMP_DIR
 
