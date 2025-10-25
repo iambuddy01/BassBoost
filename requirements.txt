@@ -1,10 +1,8 @@
-# Core
 pyrogram==2.0.106
 
-# PyTgCalls (install latest directly from GitHub to avoid PyPI conflicts)
-git+https://github.com/pytgcalls/pytgcalls.git@master#egg=pytgcalls
+# PyTgCalls from GitHub (fixing egg name)
+git+https://github.com/pytgcalls/pytgcalls.git@master#egg=py-tgcalls
 
-# Audio processing
 pydub
 aiofiles
 apscheduler
@@ -13,11 +11,9 @@ gTTS
 dnspython==2.6.1
 hachoir
 
-# Heroku & MongoDB
 heroku3
 motor==3.4.0
 pymongo
 
-# Dependencies for Pyrogram
 pyaes==1.6.1
 pysocks==1.7.1
