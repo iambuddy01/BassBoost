@@ -1,0 +1,10 @@
+import os
+
+
+API_ID = int(os.getenv("API_ID", "22657083"))
+API_HASH = os.getenv("API_HASH", "d6186691704bd901bdab275ceaab88f3" )
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8428796405:AAEcRb0TGHII7BfWAPeAoDkcBtvGUcItyng")
+SESSION_STRING = os.getenv("SESSION_STRING", "BQFZuDsAOw1TDROjYBlG_-QDroMxKRtB9FRMgS3NEKsql6LRCZRscLo-YYwpLeRJ8u_2cySCt2KmztCXjbH6TepSlDIgf5RxGkn6KuBJKJ2zWUX01EXRzgZ6rQhx0H4hirLHqhdQ_XEA98odt4yVW7UJ08yYkgyFnQCcjYL4g-7OX2feyx7v33k6qemgEdiSP6Cnvh59sTTaKJU87ilCoUcqBTgxPgd6eLzJJIUCCP5hShJOgJWQjC9iVY0vS5y4r-LDEYpXdSEhHc0fs5KpWCIy58YwfROVrdV-PMehS7pirspE61iYrpo0EuegO2RUVZpeRf0pJUvxxdiOCdUonCQPDQ0qRwAAAAH2pi4mAA")
+OWNER_ID = int(os.getenv("OWNER_ID", "8207267754"))
+TMP_DIR = os.getenv("TMP_DIR", "/tmp")
+BOOSTED_FILENAME = os.path.join(TMP_DIR, "bass_boosted.mp3")
