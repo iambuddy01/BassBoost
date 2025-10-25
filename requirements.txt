@@ -1,8 +1,5 @@
 pyrogram==2.0.106
-
-# PyTgCalls from GitHub (fixing egg name)
-git+https://github.com/pytgcalls/pytgcalls.git@master#egg=py-tgcalls
-
+pytgcalls @ git+https://github.com/pytgcalls/pytgcalls.git
 pydub
 aiofiles
 apscheduler
@@ -10,10 +7,7 @@ aiohttp==3.10.11
 gTTS
 dnspython==2.6.1
 hachoir
-
 heroku3
 motor==3.4.0
 pymongo
-
-pyaes==1.6.1
-pysocks==1.7.1
+tgcrypto
