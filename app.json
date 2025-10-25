@@ -1,0 +1,39 @@
+{
+"name": "Bass Voice AutoLoop Player Bot",
+"description": "A Telegram bot that converts voice messages to extreme bass boosted audio and loops them in group voice chats using PyTgCalls.",
+"repository": "https://github.com/yourusername/BassVoiceBot",
+"logo": "https://0x0.st/K2QT.jpg",
+"keywords": ["telegram", "music", "bass", "voicechat", "pyrogram", "pytgcalls"],
+"env": {
+"API_ID": {
+"description": "Get this from https://my.telegram.org",
+"required": true
+},
+"API_HASH": {
+"description": "Get this from https://my.telegram.org",
+"required": true
+},
+"BOT_TOKEN": {
+"description": "Your bot token from @BotFather",
+"required": true
+},
+"SESSION_STRING": {
+"description": "Pyrogram session string for assistant account",
+"required": true
+},
+"OWNER_ID": {
+"description": "Telegram numeric ID of the bot owner",
+"required": true
+}
+},
+"buildpacks": [
+{ "url": "heroku/python" },
+{ "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest" }
+],
+"formation": {
+"worker": {
+"quantity": 1,
+"size": "free"
+}
+}
+}
