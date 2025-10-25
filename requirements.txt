@@ -1,0 +1,7 @@
+pyrogram==2.2.28
+pytgcalls==4.0.0.post1
+pydub
+ffmpeg-python
+python-dotenv
+uvloop
+gunicorn
