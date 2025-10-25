@@ -4,10 +4,6 @@
 
 <!-- 🌈 Animated Neon Header -->
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=40&duration=3000&pause=1000&color=AA00FF&center=true&vCenter=true&width=900&lines=BASS+BOT+🔊;FEEL+THE+BEAT;PLAY+IT+LOUD" alt="BASS BOT Animated Header">
-</p>
-
 # 🎧 BassVoiceBot — Extreme Bass AutoLoop Player
 
 <p align="center">
